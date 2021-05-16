@@ -1,50 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(232, 232, 228);
     color: rgb(2, 48, 71);
 }
 
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-h1, h2, h5, p {
+.header {
+    background-color: rgb(233, 233, 230);
+    display: inline-flexbox;
+    font-size: 15px;
+    height: 100px;
+    padding: 10px 5px 5px 5px;
     text-align: center;
 }
 
-#resume {
+.header h1 {
+    padding: 10px;
+}
+
+.header h2 {
+    padding: 10px;
+}
+
+.seção1 {
+    width: 50;
+    height: 250px;
+    padding: 20px 5px 20px 5px;
+    background-color:whitesmoke;
     font-family: monospace;
+    margin-top: 1%;
 }
 
-img {
+.seção1 p {
+    padding-top: 50px;
+    padding-right: 50px;
+    margin-left: 250px;
+}
+
+#myFace {
     border-radius: 20%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 5px 10px 5px 30px;
+    width: 200px;
+    float: left;
 }
 
-.lists {
-    text-align: left;
+.links {
+    font-size: 15px;
+    padding: 10px;
+    margin: 30px 50px 50px 250px;
+
 }
 
-ul {
-    display: block;
-    border-radius: 8%;
-          
-    background-color: slategray;
+.Skills {
+    text-align: center;
+    padding:20px;
+    padding-bottom: 130px;
+    margin-top: 1%;
 }
 
-.lista1 {
-    font-size: 15px
+
+.Skills li {
+    padding: 1px;
+    list-style-type: none;
 }
 
-.lista2 {
-    font-size: 20px;
+.hardskills {
+    float: left;
+    margin-left: 100px;
 }
 
-.lista3 {
-    font-size: 25px;
+.softskills {
+    float: right;
+    margin-right: 100px;
 }
 
-.lista4 {
-    font-size: 30px;
+.footer {
+    font-size: 18px;
+    text-align: center;
+    background-color:whitesmoke;
+    margin: 2%;
+    padding: 20px;
 }
