@@ -1,86 +1,64 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: rgb(232, 232, 228);
-    color: rgb(2, 48, 71);
+.hero {
+  background-color: #1d2026;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
 }
 
 .header {
-    background-color: rgb(233, 233, 230);
-    display: inline-flexbox;
-    font-size: 15px;
-    height: 100px;
-    padding: 10px 5px 5px 5px;
-    text-align: center;
+  align-items: center;
+  background-color: seagreen;
+  display: flex;
+  padding: 10px 10%;
+  font-size: large;
 }
 
-.header h1 {
-    padding: 10px;
+nav h1 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
 }
 
-.header h2 {
-    padding: 10px;
+nav ul {
+  flex: 1;
+  text-align: right;
+  font-variant: small-caps;
 }
 
-.seção1 {
-    width: 50;
-    height: 250px;
-    padding: 20px 5px 20px 5px;
-    background-color:whitesmoke;
-    font-family: monospace;
-    margin-top: 1%;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
 }
 
-.seção1 p {
-    padding-top: 50px;
-    padding-right: 50px;
-    margin-left: 250px;
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 
-#myFace {
-    border-radius: 20%;
-    padding: 5px 10px 5px 30px;
-    width: 200px;
-    float: left;
+.text-conteiner {
+  margin: 5%;
 }
 
-.links {
-    font-size: 15px;
-    padding: 10px;
-    margin: 30px 50px 50px 250px;
-
+#references {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
 }
 
-.Skills {
-    text-align: center;
-    padding:20px;
-    padding-bottom: 130px;
-    margin-top: 1%;
+.references {
+  margin: 2%;
 }
 
-
-.Skills li {
-    padding: 1px;
-    list-style-type: none;
+.references h2 {
+  text-align: center;
 }
 
-.hardskills {
-    float: left;
-    margin-left: 100px;
+.references p {
+  text-align: center;
+  margin: 10%;
 }
 
-.softskills {
-    float: right;
-    margin-right: 100px;
-}
-
-.footer {
-    font-size: 18px;
-    text-align: center;
-    background-color:whitesmoke;
-    margin: 2%;
-    padding: 20px;
+.references li {
+  list-style: square;
 }
