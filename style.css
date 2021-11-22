@@ -4,63 +4,55 @@
   width: 100%;
   color: #fff;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .header {
   align-items: center;
   background-color: seagreen;
   display: flex;
-  padding: 10px 5%;
+  padding: 8px 2.5%;
   font-size: large;
 }
 
 nav h1 {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: xx-large;
+  margin-right: 20px;
 }
 
-nav ul {
+nav div {
   flex: 1;
   text-align: right;
-}
-
-nav ul li {
-  display: none;
-}
-
-nav ul li a {
-  display: none;
 }
 
 .text-conteiner {
   margin: 5%;
 }
 
-#references {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-}
-
 .references {
-  margin: 2%;
+  width: 95%;
+  font-size: large;
+  border-style: ridge;
+  border-radius: 15%;
 }
 
-.references h2 {
-  text-align: center;
+.references h2, .references p {
+  margin-left: 25px;
 }
 
 .references p {
-  text-align: center;
-  margin: 10%;
+  margin-top: -25px;
 }
 
 .references li {
-  list-style: square;
+  list-style: circle;
+  font-size: large;
 }
 
 .head {
   display: flex;
+  flex-direction: row;
 }
 
 .profile-img {
@@ -68,6 +60,13 @@ nav ul li a {
   width: 40%;
   border-radius: 50%;
   margin: 5% 10% 4px;
+}
+
+.profile-text {
+  height: 40%;
+  width: 40%;
+  margin: 17% 1px 4px -5%;
+  font-size: large;
 }
 
 .nav-img {
@@ -81,19 +80,73 @@ nav ul li a {
   padding: 5px;
 }
 
+.nav-list {
+  display: none;
+}
+
 @media(min-width: 600px) {
   .hamburger-menu {
     display: none;
   }
 
-  nav ul li {
-    display: inline-block;
+  .nav-list {
+    display: flex;
     list-style: none;
-    margin: 0 20px;
   }
-  
-  nav ul li a {
+
+  .nav-list li {
+    margin: 10px;
+  }
+
+  .nav-list li a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
+  }
+
+  .profile-text {
+    height: 40%;
+    width: 40%;
+    margin: 22% 1px 4px -5%;
+    font-size: x-large;
+  }
+
+  #about {
+    display: flex;
+  }
+
+  .about-box {
+    width: 50rem;
+    height: 50%;
+    margin: 10px;
+  }
+
+  #references {
+    display: flex;
+  }
+
+  .references {
+    width: 50%;
+    font-size: medium;
+  }
+}
+
+@media (min-width: 800px) {
+  .nav-list li {
+    font-size: x-large;
+  }
+
+  .profile-img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin: 5% 10% 4px;
+  }
+
+  .profile-text {
+    height: 20rem;
+    width: 25rem;
+    margin: 10rem 10px -10rem -3rem;
+    font-size: xx-large;
   }
 }
