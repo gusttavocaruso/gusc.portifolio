@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+    <!-- Code by Angela Delise https://codepen.io/angeladelise/pen/YzXLdyq Video Tutorial: https://www.youtube.com/watch?v=68O6eOGAGqA -->
     <link rel="stylesheet" href="style.css">
-    <title>gusttavocaruso.com</title>
+    <title>GUSTA CARUSO</title>
   </head>
 
   <body>
+    
+    <div class="container">
 
-    <div class="hero">
-
-      <nav class="header">
-        <h1>GUSTAVO CARUSO</h1>
-        <div>
-          <img class="hamburger-menu" src="/img/menu.png" alt="hamburger-menu">
-          </img>
-          <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/lafs" title="LAFS">LAFS</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+      <nav>
+        <div class="nav-box">
+          <p> Welcome!</p>
+          <img src="/img/capoeira2.png" alt="brb">
+          <div class="links">
+            <a href="https://www.linkedin.com/in/gustavocaruso/" target="_blank">
+              <img src="/img/linkedin3.png" alt="lnkin">
+            </a>
+            <a href="https://github.com/gusttavocaruso" target="_blank">
+              <img src="/img/github2.png" alt="GH">
+            </a>
+            <a href="">
+              <img src="/img/email2.png" alt="email">
+            </a>
+            <!-- <a href=""><img src="/img/medium.png" alt="medium"></a> -->
+          </div>
         </div>
-        <ul class="nav-list">
-          <li><a href="">Who am I?</a></li>
-          <li><a href="">Portifólio</a></li>
-          <li><a href="">Skills</a></li>
-        </ul>
       </nav>
 
-      <section class="head">
-        <img class="profile-img" src="/img/profile-shut.jpg" alt="profile">
-        <p class="profile-text">Industrial Engineer & Software Development</p>
-      </section>
+      <main>
+        <span>
+          Hey there, <br />
+          I'm Gustavo Caruso H Almeida
+        </span>
+        <p>
+          I've always been fascinated by the human being’s ability to transform world around. It led me to study Engineering, which I did with great passion.
+          <br>
+          As time goes by, I realized Technology is capable to make a really transformation in the real-world-persons life. <br>
+          So, I drove me to studies Software Engineering and fallin in love to the programming universe.
+        </p>
+        <span>
+          Here, I gonna drive you to my done projects. <br />
+          Check out!
+        </span>
+      </main>
 
-      <div class="text-conteiner">
-
-        <div id="about">
-          <div class="about-box">
-            <h1>Who am I ?</h1>
-            <p>
-              I'm just a brazilian 29 guy whose plays Capoeira and Chess, enjoys reading, world-history, takes care of the dog like a son, plants like a pet and works every day to get to know himself better.
-            </p>
-          </div>
-          <div class="about-box">
-            <!-- <h2>About me</h2> -->
-            <p>
-              I've always been fascinated by the human being’s ability to transform world around. It led me to study Engineering, which I did with great passion.
-              <br>
-              As time goes by, I realized Technology is capable to make a really transformation in the real-world-persons life. <br>
-              So, I drove me to studies Software Engineering and fallin in love to the programming universe.
-            </p>
-          </div>
-        </div>
-
-        <div id="references">
-          <div class="references">
-            <h2>Personal References</h2>
-            <p>Some personalities that influencies me</p>
+      <section>
+        <div class="references">
+          <h2>Personal References</h2>
+          <div class="references-box">
+            <p>personalities</p>
             <ul>
               <li>Mano Brown</li>
               <li>Chorão</li>
@@ -66,10 +65,8 @@
               <li>Thiago Nigro</li>
             </ul>
           </div>
-
-          <div class="references">
-            <h2>Books</h2>
-            <p>Some books that turn me on</p>
+          <div class="references-box">
+            <p>books</p>
             <ul>
               <li>Sapiens - Yuval Harari</li>
               <li>HomoDeus - Yuval Harari</li>
@@ -81,22 +78,79 @@
             </ul>
           </div>
         </div>
+      </section>
 
+      <div id="sidebar">
+        <img class="profile-img" src="/img/perfil-plants-0.2M.jpeg" alt="profile">
+        <!-- <h1>Who am I ?</h1> -->
+        <p>
+          I'm just a brazilian 29 guy whose plays Capoeira and Chess, enjoys reading, world-history, takes care of the dog like a son, plants like a pet and works every day to get to know himself better.
+        </p>
       </div>
 
-      <!-- <section class="portifolio">
-        <div class="projeto">
-          <p>Esse projeto é isso isso e aquilo</p>
+      <div id="content1">
+        <p>
+          This project is about how display data and filter it.<br />
+          There is a API that give us a DB about Star-Wars planets and some informations about them.
+        </p>
+        <span>Tech: React && Hooks && API</span>
+        <a href="https://starwars-planets-gusttavocaruso.vercel.app/" target="_blank">
+          CHECK THE APP
+        </a>
+        <a href="https://github.com/gusttavocaruso/starwars-planets" target="_blank">
+          CHECK THE CODE
+        </a>
+      </div>
+
+      <div id="content2">
+        <p>
+          This project is about schedule appointment and reschedule it.<br />
+          There is a job-challenge from a med-startup who's want to schedule a appointment, unschedule, keep the history status and show which appointment is near.
+        </p>
+        <span>Tech: React && Hooks && ContextAPI</span>
+        <a href="https://medspot-challenge.vercel.app/" target="_blank">
+          CHECK THE APP
+        </a>
+        <a href="https://github.com/gusttavocaruso/medspot-challenge" target="_blank">
+          CHECK THE CODE
+        </a>
+      </div>
+
+      <div id="content3">
+        <p>
+          This project is about how manipulate colors and stuffs in CSS + JS.<br />
+          There is a simple but not so easy project where you abble to draw thru the screen in a 'vanilla' javascript aplication
+        </p>
+        <span>Tech: JavaScript && HTML && CSS</span>
+        <a href="https://pixel-art-eta.vercel.app/" target="_blank">
+          CHECK THE APP
+        </a>
+        <a href="https://github.com/gusttavocaruso/pixel-art" target="_blank">
+          CHECK THE CODE
+        </a>
+      </div>
+
+      <div id="content4">Content4</div>
+      <div id="content5">Content5</div>
+      <div id="content6">Content6</div>
+
+      <footer>
+        <div class="copyrights">
+          <span>This website was developed by</span>
+          <p>Gustavo Caruso H Almeida</p>
+          <span>
+            with huge layout references from
+            <a href="https://www.youtube.com/watch?v=68O6eOGAGqA" target="_blank">
+              Angela Delise
+            </a>
+            Thanks Angela
+          </span>
         </div>
-      </section> -->
-
+        <!-- <button><img src="/img/arrowup2.png" alt="arr"></button> -->
+      </footer>
     </div>
 
-    <div id="about">
-        <h1>footer</h1>
-    </div>
+    <!-- <a href="https://www.youtube.com/watch?v=68O6eOGAGqA">Video Tutorial</a> -->
 
-    <script src="script.js"></script>
   </body>
-
 </html>
