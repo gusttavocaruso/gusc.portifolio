@@ -18,7 +18,7 @@ body {
     "sidebar content1 content2 content3"
     "sidebar content4 content5 content6"
     "sidebar section section section"
-    "sidebar footer footer footer";
+    "footer footer footer footer";
   grid-gap: 0.1rem;
   font-size: 12px;
   color: #004d40;
@@ -82,12 +82,14 @@ main span {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
+  scroll-behavior:smooth;
 }
 .item {
   flex: none;
   width: 100%;
   height: 100%;
   scroll-snap-align: start;
+  pointer-events: none;
 }
 .imagem {
   width: 100%;
@@ -163,6 +165,11 @@ section {
   padding: 2px;
   border-radius: 5px;
 }
+#content1 h4 {
+  background-color:seagreen;
+  border-radius: 10px;
+  padding: 6px;
+}
 
 #content2 {
   background: #253247;
@@ -181,6 +188,11 @@ section {
   padding: 2px;
   border-radius: 5px;
 }
+#content2 h4 {
+  background-color:seagreen;
+  border-radius: 10px;
+  padding: 6px;
+}
 
 #content3 {
   background: #253247;
@@ -198,6 +210,11 @@ section {
   margin: 10px auto;
   padding: 2px;
   border-radius: 5px;
+}
+#content3 h4 {
+  background-color:seagreen;
+  border-radius: 10px;
+  padding: 6px;
 }
 
 #content4 {
@@ -323,11 +340,9 @@ a {
   .stacks {
     display: flex;
     flex-direction: column;
-    background-color: yellowgreen;
   }
 
   .stacks-box {
-    background-color: violet;
     display: flex;
     flex-wrap: wrap;
   }
