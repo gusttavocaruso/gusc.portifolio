@@ -320,6 +320,26 @@ a {
     padding: var(--main-padding) 10px 5px 10px;
   }
 
+  .stacks {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .stacks h2 {
+    margin: 8px auto 2px auto;
+  }
+  .stacks h4 {
+    margin: 8px auto 2px auto;
+  }
+  .stacks li {
+    width: fit-content;
+    margin-right: auto;
+    list-style:lower-greek;
+  } */
+  .stacks-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .carroulsel {
     flex-direction: column;
   }
