@@ -323,19 +323,11 @@ a {
   .stacks {
     display: flex;
     flex-direction: column;
+    background-color: yellowgreen;
   }
-  /* .stacks h2 {
-    margin: 8px auto 2px auto;
-  }
-  .stacks h4 {
-    margin: 8px auto 2px auto;
-  }
-  .stacks li {
-    width: fit-content;
-    margin-right: auto;
-    list-style:lower-greek;
-  } */
+
   .stacks-box {
+    background-color: violet;
     display: flex;
     flex-wrap: wrap;
   }
