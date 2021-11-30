@@ -70,6 +70,7 @@ main span {
   font-size: large;
 }
 .carroulsel{
+  margin: 5px auto 15px auto;
   display: flex;
 }
 .itens-wrapper {
@@ -83,6 +84,7 @@ main span {
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scroll-behavior:smooth;
+  border-radius: 30px;
 }
 .item {
   flex: none;
@@ -353,6 +355,6 @@ a {
 
   .itens-wrapper {
     margin: auto;
-    width: 60vw;
+    width: 80vw;
   }
 }
